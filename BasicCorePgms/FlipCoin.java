@@ -7,6 +7,7 @@ public class FlipCoin {
     public static void main(String[] args){
         int tails = 0;
         int heads = 0;
+        System.out.println("Flips");
         System.out.println("Enter the no of times to flip coin");
         Scanner sc = new Scanner(System.in);
         int flips = sc.nextInt();
