@@ -7,6 +7,7 @@ public class Distance {
         System.out.println("Distance is:" + Math.pow((x*x + y*y), 0.5));
     }
     public static void main(String[] args){
+        System.out.println("Hello");
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter value for x");
         int x = sc.nextInt();
